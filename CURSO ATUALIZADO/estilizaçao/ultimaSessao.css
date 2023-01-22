@@ -1,0 +1,103 @@
+.ultima__sessao {
+  padding: 20px;
+  background-color: #000000;
+}
+
+.ultima__sessao h2 {
+  background-color: #d0301a;
+  background-image: linear-gradient(90deg, #d0301a 0%, #ff7000 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.informacoes__ultima-sessao {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.informacoes__ultima-sessao i {
+  margin: 10px 0;
+  font-size: 50px;
+}
+
+.informacoes__ultima-sessao span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.informacoes__ultima-sessao a {
+  background-color: #ff7000;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0px 10px;
+  transition: 0.5s;
+}
+
+.informacoes__ultima-sessao a:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (min-width: 768px) {
+  .ultima__sessao {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ultima__sessao h2 {
+    margin: 0;
+    margin-right: 50px;
+    font-size: 25px;
+  }
+
+  .informacoes__ultima-sessao {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ultima__sessao h2 {
+    margin: 0;
+    margin-right: 50px;
+    font-size: 40px;
+  }
+
+  .informacoes__ultima-sessao {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .informacoes__ultima-sessao i {
+    margin: 10px 0;
+    font-size: 70px;
+  }
+
+  .informacoes__ultima-sessao span {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .informacoes__ultima-sessao a {
+    padding: 15px;
+  }
+}

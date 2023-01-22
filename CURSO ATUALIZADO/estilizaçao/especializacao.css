@@ -1,0 +1,200 @@
+.linguagens {
+  padding: 40px 10px;
+}
+
+.especializacao__titulo {
+  text-align: center;
+  background-color: #d0301a;
+  background-image: linear-gradient(90deg, #d0301a 0%, #ff7000 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+.lingua {
+  padding: 5px 0 0 5px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.especializacao__html {
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #dd4b24;
+}
+.especializacao__css {
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #2862e8;
+}
+
+.especializacao__js {
+  font-weight: 700;
+  color: #000;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ffeb3b;
+}
+
+.especializacao__react {
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #00d1f7;
+}
+
+.especializacao__python {
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f6c955;
+  background-image: linear-gradient(62deg, #f6c955 9%, #3b6c95 86%);
+}
+
+.especializacao__java {
+  font-weight: 700;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #e91d20;
+}
+
+@media screen and (min-width: 768px) {
+  .linguagens {
+    padding: 30px 10px;
+  }
+
+  .especializacao__titulo {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .especializacao__html {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #dd4b24;
+  }
+  .especializacao__css {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #2862e8;
+  }
+
+  .especializacao__js {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #ffeb3b;
+  }
+
+  .especializacao__react {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #00d1f7;
+  }
+
+  .especializacao__python {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #f6c955;
+    background-image: linear-gradient(62deg, #f6c955 9%, #3b6c95 86%);
+  }
+
+  .especializacao__java {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #e91d20;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .linguagens {
+    padding: 40px 10px;
+  }
+
+  .especializacao__titulo {
+    font-size: 40px;
+  }
+
+  .especializacao__html {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #dd4b24;
+  }
+  .especializacao__css {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #2862e8;
+  }
+
+  .especializacao__js {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #ffeb3b;
+  }
+
+  .especializacao__react {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #00d1f7;
+  }
+
+  .especializacao__python {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #f6c955;
+    background-image: linear-gradient(62deg, #f6c955 9%, #3b6c95 86%);
+  }
+
+  .especializacao__java {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #e91d20;
+  }
+}

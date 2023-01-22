@@ -1,0 +1,16 @@
+.pagamento {
+  background-color: #dddddd;
+}
+
+.pagamento__cartoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.pagamento img {
+  width: 30px;
+  border-radius: 3px;
+}

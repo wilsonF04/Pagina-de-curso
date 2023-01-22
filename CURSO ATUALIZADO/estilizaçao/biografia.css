@@ -1,0 +1,51 @@
+.biografia {
+  background-color: #e4260c;
+  background-image: linear-gradient(
+    90deg,
+    #e4260c 31%,
+    #d0301a 45%,
+    #ff7000 100%
+  );
+  padding: 30px;
+  text-align: center;
+}
+
+.nome__biografia {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.biografia span {
+  color: #fff;
+  font-size: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .biografia {
+    padding: 30px 70px;
+  }
+  .nome__biografia {
+    font-size: 40px;
+  }
+
+  .biografia span {
+    color: #fff;
+    font-size: 100;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .biografia {
+    padding: 30px 70px;
+  }
+  .nome__biografia {
+    font-size: 40px;
+  }
+
+  .biografia span {
+    color: #fff;
+    font-size: 25px;
+  }
+}
